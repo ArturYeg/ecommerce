@@ -120,6 +120,11 @@
         letter-spacing: 0.4px;
         text-transform: uppercase;
       }
+      ul {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+      }
       li {
         color: #fff;
         font-family: Inter;
