@@ -111,6 +111,7 @@
       flex-direction: column;
       gap: 24px;
       p {
+        display: flex;
         color: #3858d6;
         font-family: Inter;
         font-size: 10px;
@@ -119,6 +120,7 @@
         line-height: 140%; /* 14px */
         letter-spacing: 0.4px;
         text-transform: uppercase;
+        text-align: end;
       }
       ul {
         display: flex;
