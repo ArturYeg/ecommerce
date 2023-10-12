@@ -4,6 +4,7 @@ import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import HomePageTitle from '@/components/HomePageTitle'
 import Collection from '@/components/Collection'
+import Banner from '@/components/Banner'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -19,6 +20,7 @@ export default function Home() {
       <main className={`${styles.main} ${inter.className}`}>
         <HomePageTitle />
         <Collection />
+        <Banner />
 
 
 
