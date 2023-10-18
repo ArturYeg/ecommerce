@@ -5,6 +5,9 @@ import styles from '@/styles/Home.module.css'
 import HomePageTitle from '@/components/HomePageTitle'
 import Collection from '@/components/Collection'
 import Banner from '@/components/Banner'
+import Slider from '@/components/Slider'
+import { product } from '@/data'
+import SliderComponent from '@/components/SliderComponent'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -21,6 +24,9 @@ export default function Home() {
         <HomePageTitle />
         <Collection />
         <Banner />
+        <SliderComponent product={product} />
+        {/* <Slider product={product} /> */}
+
 
 
 
